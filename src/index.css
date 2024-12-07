@@ -52,7 +52,9 @@ body {
   .absolute-center {
     @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%];
   }
-
+  .about-path {
+    clip-path: polygon(16% 0, 76% 4%, 82% 88%, 19% 98%);
+  }
   .flex-center {
     @apply flex justify-center items-center;
   }
