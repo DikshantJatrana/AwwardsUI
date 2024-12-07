@@ -2,6 +2,7 @@ import React from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/all";
+import AnimatedWords from "./AnimatedWords";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,9 +55,12 @@ function About() {
           <span className="inline-block mr-3">To</span>
           <span className="inline-block mr-3">Zentry</span>
         </h4>
-        <h1 className="special-font font-zentry font-black text-4xl md:text-6xl lg:text-7xl">
-          Disc<b>o</b>ver the World's <br /> Largest Shared <b>A</b>dventure
-        </h1>
+        <AnimatedWords
+          title={
+            "Disc<b>o</b>ver the World's <br /> Largest Shared <b>A</b>dventure"
+          }
+          containerClass={"text-black"}
+        />
         <div
           id="about-container"
           className="w-screen h-dvh pt-[2rem] z-20 relative flex justify-center bg-blue-75"

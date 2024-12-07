@@ -81,14 +81,14 @@ body {
   }
 
   .animated-title {
-    @apply flex flex-col gap-1 text-7xl uppercase leading-[.8] text-white sm:px-32 md:text-[6rem];
+    @apply flex flex-col gap-1 text-7xl uppercase leading-[.8] sm:px-32 md:text-[6rem];
   }
 
   .animated-word {
-    @apply special-font font-zentry font-black opacity-0;
-    transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
-    transform-origin: 50% 50% -150px !important;
-    will-change: opacity, transform;
+    transform: perspective(1000px) translate(470, 80)
+      translate3d(122.07px, 51.303px, 20.4769px) rotate(-0.0004deg)
+      rotateY(60deg) rotateX(-20deg);
+    opacity: 0;
   }
 
   .bento-tilt_1 {

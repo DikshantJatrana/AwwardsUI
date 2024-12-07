@@ -7,7 +7,7 @@ function Home() {
     <div className="relative w-screen min-h-screen overflow-x-hidden">
       <Hero />
       <About />
-      <div className="h-screen w-full bg-black"></div>
+      <div className="w-full h-screen bg-black mt-16"></div>
     </div>
   );
 }
