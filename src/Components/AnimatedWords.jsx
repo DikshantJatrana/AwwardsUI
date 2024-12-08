@@ -8,12 +8,16 @@ function AnimatedWords({ title, containerClass }) {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    gsap.set(".animated-word", {
+    if (!containerRef.current) return;
+    const animatedWords =
+      containerRef.current.querySelectorAll(".animated-word");
+
+    gsap.set(animatedWords, {
       transform:
         "perspective(1000px) translate3d(-122.07px, 51.303px, -20.4769px) rotate(0.0004deg) rotateY(-60deg) rotateX(-20deg)",
       opacity: 0,
     });
-    gsap.to(".animated-word", {
+    gsap.to(animatedWords, {
       opacity: 1,
       transform:
         "perspective(1000px) translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg)",
@@ -26,6 +30,8 @@ function AnimatedWords({ title, containerClass }) {
         toggleActions: "play none none reverse",
       },
     });
+
+    ScrollTrigger.refresh();
   }, [containerRef]);
 
   return (

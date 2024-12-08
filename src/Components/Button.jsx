@@ -54,7 +54,7 @@ function Button({ title, id, leftIcon, rightIcon, containerClass }) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       id={id}
-      className={`group relative w-fit rounded-full overflow-hidden cursor-pointer bg-violet-50 px-5 py-2 text-black ${containerClass}`}
+      className={`group relative w-fit rounded-full uppercase overflow-hidden cursor-pointer bg-violet-50 px-5 py-2 text-black ${containerClass}`}
     >
       <div className="relative overflow-hidden">
         <span ref={T1Ref} id="t1" className=" flex justify-center items-center">

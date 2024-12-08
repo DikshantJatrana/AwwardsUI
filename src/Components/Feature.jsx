@@ -43,6 +43,7 @@ function BentoCard({ title, description, src }) {
       <video
         src={src}
         className="size-full absolute top-0 left-0 object-cover object-center"
+        muted
         loop
         autoPlay
       ></video>
