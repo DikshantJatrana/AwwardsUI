@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../Components/Hero";
 import About from "../Components/about";
 import Navbar from "../Components/Navbar";
+import Feature from "../Components/Feature";
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
       <Navbar />
       <Hero />
       <About />
-      <div className="w-full h-screen bg-black mt-16"></div>
+      <Feature />
     </div>
   );
 }
