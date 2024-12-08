@@ -6,6 +6,7 @@ import Feature from "../Components/Feature";
 import Story from "../Components/Story";
 import WordsSection from "../Components/WordsSection";
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Story />
       <WordsSection />
       <Contact />
+      <Footer />
     </div>
   );
 }

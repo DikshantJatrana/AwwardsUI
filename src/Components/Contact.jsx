@@ -16,7 +16,7 @@ function Contact() {
           <Button
             id="contact-btn"
             title={"Contact Us"}
-            containerClass={"text-center my-8 text-sm"}
+            containerClass={"text-center my-8 text-sm font-general"}
           />
         </div>
         <div className="absolute hidden md:block -top-10 contact-clip-path-1 w-[30%]">
