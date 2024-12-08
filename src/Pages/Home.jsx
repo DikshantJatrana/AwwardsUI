@@ -4,6 +4,7 @@ import About from "../Components/about";
 import Navbar from "../Components/Navbar";
 import Feature from "../Components/Feature";
 import Story from "../Components/Story";
+import WordsSection from "../Components/WordsSection";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <About />
       <Feature />
       <Story />
+      <WordsSection />
     </div>
   );
 }

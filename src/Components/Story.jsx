@@ -53,7 +53,7 @@ function Story() {
   });
 
   return (
-    <section id="Story" className="min-h-dvh w-screen bg-black text-blue-50">
+    <section id="Story" className="min-h-dvh w-screen">
       <div className="flex flex-col items-center size-full py-10 pb-24">
         <h4
           id="Universal"
@@ -88,7 +88,7 @@ function Story() {
                 className="size-full object-cover obeject-center"
               />
             </div>
-            <div className="font-general flex flex-col text-sm md:text-[10px] right-[10%] -bottom-[10%] md:right-0 absolute md:bottom-[18%] w-[80%] md:w-[35%] text-blue-100">
+            <div className="font-general flex flex-col text-sm md:text-[10px] right-[10%] -bottom-[10%] md:right-0 absolute md:bottom-[18%] w-[80%] md:w-[35%]">
               <p>
                 Where realms converge, lies Zentry and the boundless pillar.
                 Discover its secrets and shape your fate amidst infinite
