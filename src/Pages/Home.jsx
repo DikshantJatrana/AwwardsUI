@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar";
 import Feature from "../Components/Feature";
 import Story from "../Components/Story";
 import WordsSection from "../Components/WordsSection";
+import Contact from "../Components/Contact";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Feature />
       <Story />
       <WordsSection />
+      <Contact />
     </div>
   );
 }

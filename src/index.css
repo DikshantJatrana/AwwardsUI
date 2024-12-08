@@ -130,7 +130,7 @@ body {
   }
 
   .sword-man-clip-path {
-    clip-path: polygon(16% 0, 89% 15%, 75% 100%, 0 97%);
+    clip-path: polygon(18% 0, 88% 10%, 71% 93%, 4% 96%);
   }
   .hide {
     visibility: hidden;
@@ -141,11 +141,11 @@ body {
       rotateY(60deg) rotateX(-20deg);
   }
   .contact-clip-path-1 {
-    clip-path: polygon(25% 0%, 74% 0, 69% 64%, 34% 73%);
+    clip-path: polygon(3% 3%, 83% 5%, 86% 87%, 16% 98%);
   }
 
   .contact-clip-path-2 {
-    clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
+    clip-path: polygon(41% 18%, 94% 24%, 75% 95%, 0 84%);
   }
 }
 

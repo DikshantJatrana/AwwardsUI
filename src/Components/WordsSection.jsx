@@ -111,9 +111,9 @@ function WordsSection() {
   return (
     <section
       id="WordsSection"
-      className="h-screen w-full bg-black text-blue-75 flex flex-col items-center justify-evenly"
+      className="h-screen w-full bg-black text-blue-75 flex flex-col items-center justify-center"
     >
-      <div className="w-full h-[75%] text-center">
+      <div className="w-full text-center">
         <h4
           id="Who-are-we"
           className="font-general text-[8px] uppercase mb-2 md:text-[10px] lg:text-[12px]"
@@ -169,7 +169,7 @@ function WordsSection() {
           </h1>
         </div>
       </div>
-      <div className="mt-7 h-[25%] max-w-[75%] font-general flex flex-col text-center items-center justify-center text-sm md:text-[10px]">
+      <div className="mt-7 max-w-[75%] font-general flex flex-col text-center items-center justify-center text-sm md:text-[10px]">
         <p className="mb-5">
           Zentry is on a mission to unite diverse player networks to <br />
           forge the world's largest shared adventure.
